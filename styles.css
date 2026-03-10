@@ -33,6 +33,11 @@ height:20px;
 width:auto;
 }
 
+.hero-logo{
+max-height:50px;
+width:auto;
+}
+
 .subtitle{
 font-size:12px;
 letter-spacing:3px;
