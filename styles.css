@@ -1,0 +1,183 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f8fafc;
+color:#0f172a;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+.header{
+background:white;
+border-bottom:1px solid #ddd;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.brand{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo{
+height:50px;
+}
+
+.subtitle{
+font-size:12px;
+letter-spacing:3px;
+text-transform:uppercase;
+}
+
+.nav-links{
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#0f172a;
+}
+
+.call-btn{
+background:#1d4ed8;
+color:white;
+padding:10px 16px;
+border-radius:10px;
+text-decoration:none;
+}
+
+.hero{
+padding:80px 0;
+background:linear-gradient(135deg,#fee2e2,#ffffff,#dbeafe);
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.hero-buttons{
+margin-top:20px;
+display:flex;
+gap:10px;
+}
+
+.btn{
+padding:12px 20px;
+border-radius:10px;
+text-decoration:none;
+}
+
+.red{
+background:#dc2626;
+color:white;
+}
+
+.white{
+background:white;
+border:1px solid #ccc;
+}
+
+.hero-card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.section{
+padding:60px 0;
+}
+
+.section-title{
+font-size:32px;
+margin-bottom:30px;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.dark{
+background:#0f172a;
+color:white;
+}
+
+.about-text{
+max-width:700px;
+}
+
+.reviews{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.review{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.faq details{
+margin-bottom:15px;
+background:white;
+padding:15px;
+border-radius:10px;
+}
+
+.contact{
+background:#0f172a;
+color:white;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.form input,
+.form textarea{
+width:100%;
+padding:12px;
+margin-bottom:10px;
+border-radius:8px;
+border:none;
+}
+
+.form button{
+background:#dc2626;
+color:white;
+padding:12px;
+border:none;
+border-radius:8px;
+}
+
+.footer{
+background:#f1f5f9;
+text-align:center;
+padding:30px 0;
+}
