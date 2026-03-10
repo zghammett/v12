@@ -33,9 +33,16 @@ height:20px;
 width:auto;
 }
 
-.hero-logo{
-max-height:50px;
-width:auto;
+.hero-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-logo {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
 .subtitle{
