@@ -250,17 +250,29 @@ If you’re unsure whether we can clean something, just ask!</p>
 <input type="hidden" name="_subject" value="New Pressure Washing Quote Request">
 <input type="hidden" name="_captcha" value="false">
 
-<input type="text" name="name" placeholder="Name" required>
+<input type="text" name="name" placeholder="Full Name" required>
 
-<input type="tel" name="phone" placeholder="Phone" required>
+<input type="tel" name="phone" placeholder="Phone Number" required>
 
-<input type="email" name="email" placeholder="Email" required>
+<input type="email" name="email" placeholder="Email Address" required>
 
-<input type="hidden" name="_next" value="https://yourdomain.vercel.app/#contact">
+<input type="text" name="address" placeholder="Service Address (City or Zip)" required>
 
-<textarea name="message" placeholder="What do you need cleaned?" required></textarea>
+<select name="service" required>
+<option value="">Select Service Needed</option>
+<option>House Washing</option>
+<option>Driveway / Concrete Cleaning</option>
+<option>Fence Cleaning</option>
+<option>Roof Cleaning</option>
+<option>Patio / Sidewalk Cleaning</option>
+<option>Commercial Building Cleaning</option>
+<option>Rust Removal</option>
+<option>Multiple Services</option>
+</select>
 
-<button type="submit">Submit</button>
+<textarea name="message" placeholder="Tell us about the job (size, stains, timeline, etc.)"></textarea>
+
+<button type="submit">Request Free Quote</button>
 
 </form>
 
