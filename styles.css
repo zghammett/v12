@@ -200,6 +200,14 @@ border:none;
 border-radius:8px;
 }
 
+.form select{
+width:100%;
+padding:12px;
+margin-bottom:10px;
+border-radius:8px;
+border:none;
+}
+
 .footer{
 background:#f1f5f9;
 text-align:center;
