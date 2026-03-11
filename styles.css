@@ -209,6 +209,16 @@ padding:30px 0;
 /* Mobile layout */
 @media (max-width: 768px){
 
+  .nav{
+flex-direction:column;
+align-items:center;
+gap:10px;
+}
+
+.call-btn{
+margin-top:10px;
+}
+
 .hero-grid{
 grid-template-columns:1fr;
 text-align:center;
