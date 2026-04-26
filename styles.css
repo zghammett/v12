@@ -211,6 +211,7 @@ padding:30px 0;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:25px;
+margin-bottom:30px;
 }
 
 .ba-item{
@@ -221,11 +222,22 @@ text-align:center;
 width:100%;
 border-radius:15px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:transform 0.3s ease;
+}
+
+.ba-item:hover img{
+transform:scale(1.05);
 }
 
 .ba-item p{
 margin-top:10px;
 font-weight:bold;
+}
+
+.before-after h3{
+margin-top:40px;
+margin-bottom:10px;
+font-size:22px;
 }
 
 /* Mobile layout */
