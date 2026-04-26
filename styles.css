@@ -158,13 +158,6 @@ border-radius:15px;
 box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
 
-.review{
-background:white;
-padding:20px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
-}
-
 .faq details{
 margin-bottom:15px;
 background:white;
@@ -224,25 +217,10 @@ gap:25px;
 text-align:center;
 }
 
-.ba-images{
-position:relative;
-overflow:hidden;
-border-radius:15px;
-}
-
-.ba-images img{
+.ba-item img{
 width:100%;
-display:block;
-}
-
-.ba-images .after{
-position:absolute;
-top:0;
-left:0;
-width:50%;
-height:100%;
-object-fit:cover;
-border-right:3px solid white;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 
 .ba-item p{
@@ -307,10 +285,6 @@ padding:60px 20px;
 
 .services-grid{
 grid-template-columns:1fr;
-}
-
-  .ba-images .after{
-width:60%;
 }
 
 }
