@@ -283,6 +283,18 @@ transform:scale(1.05);
 cursor:pointer;
 }
 
+.card a{
+display:inline-block;
+margin-top:10px;
+color:#dc2626;
+font-weight:bold;
+text-decoration:none;
+}
+
+.card a:hover{
+text-decoration:underline;
+}
+
 /* Mobile layout */
 @media (max-width: 768px){
 
