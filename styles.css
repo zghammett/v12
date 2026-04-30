@@ -317,6 +317,22 @@ border-bottom:1px solid #eee;
 box-shadow:0 2px 8px rgba(0,0,0,.05);
 }
 
+.fb-icon img{
+height:32px;
+width:auto;
+margin-left:10px;
+transition:transform 0.2s ease;
+}
+
+.fb-icon img:hover{
+transform:scale(1.1);
+}
+
+.fb-icon{
+display:flex;
+align-items:center;
+}
+
 /* Mobile layout */
 @media (max-width: 768px){
 
