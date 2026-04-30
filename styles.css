@@ -42,22 +42,24 @@ height:50px;
 width:auto;
 }
 
-.hero-card img {
-  max-width: 100%;
-  height: auto;
-}
-
-.hero-logo {
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: auto;
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 15px 30px rgba(0,0,0,.12);
 }
 
 .subtitle{
 font-size:12px;
 letter-spacing:3px;
 text-transform:uppercase;
+}
+
+.btn:hover{
+transform:translateY(-2px);
+}
+
+.hero{
+position:relative;
+overflow:hidden;
 }
 
 .nav-links{
@@ -122,12 +124,6 @@ background:white;
 border:1px solid #ccc;
 }
 
-.hero-card{
-background:white;
-padding:30px;
-border-radius:20px;
-box-shadow:0 10px 25px rgba(0,0,0,.1);
-}
 
 .section{
 padding:60px 0;
@@ -144,12 +140,6 @@ grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
 }
 
-.card{
-background:white;
-padding:20px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
-}
 
 .dark{
 background:#0f172a;
@@ -279,20 +269,32 @@ transition:all 0.2s ease;
 transform:scale(1.05);
 }
 
-.card{
-cursor:pointer;
+
+.hero-image img{
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
 
-.card a{
-display:inline-block;
+.trust-list{
+list-style:none;
+padding:0;
 margin-top:10px;
-color:#dc2626;
-font-weight:bold;
-text-decoration:none;
+font-size:14px;
 }
 
-.card a:hover{
-text-decoration:underline;
+.trust-list li{
+margin-bottom:5px;
+}
+
+.hero p{
+margin-top:10px;
+}
+
+.hero h2{
+font-size:42px;
+line-height:1.2;
+margin-bottom:10px;
 }
 
 /* Mobile layout */
@@ -412,6 +414,16 @@ border-radius:12px;
 /* TOUCH FRIENDLY */
 a, button{
 min-height:44px;
+}
+
+.hero-image{
+margin-top:20px;
+}
+
+.hero p{
+max-width:500px;
+margin-left:auto;
+margin-right:auto;
 }
 
 }
