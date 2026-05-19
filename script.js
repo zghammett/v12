@@ -22,8 +22,6 @@ document.querySelectorAll('.carousel').forEach(carousel => {
     update();
   });
 
-  // OPTIONAL AUTO SLIDE (uncomment if you want it)
-  /*
   setInterval(() => {
     index = (index + 1) % slides.length;
     update();
