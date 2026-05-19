@@ -333,6 +333,64 @@ display:flex;
 align-items:center;
 }
 
+/* CAROUSEL */
+.carousel{
+position:relative;
+overflow:hidden;
+margin:30px 0;
+}
+
+.carousel-track{
+display:flex;
+transition:transform 0.4s ease;
+}
+
+.carousel-track img{
+min-width:100%;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+/* NAV BUTTONS */
+.carousel button{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+background:rgba(0,0,0,0.6);
+color:white;
+border:none;
+padding:10px 15px;
+cursor:pointer;
+border-radius:50%;
+z-index:2;
+font-size:18px;
+}
+
+.carousel .prev{
+left:10px;
+}
+
+.carousel .next{
+right:10px;
+}
+
+/* HOVER EFFECT */
+.carousel button:hover{
+background:rgba(0,0,0,0.8);
+}
+
+.carousel-track{
+display:flex;
+transition:transform 0.5s ease;
+}
+
+.carousel button{
+font-size:20px;
+}
+
+.carousel-track img{
+cursor:pointer;
+}
 /* Mobile layout */
 @media (max-width: 768px){
 
@@ -468,4 +526,9 @@ margin-left:auto;
 margin-right:auto;
 }
 
+.carousel button{
+padding:8px 12px;
+font-size:16px;
+}
+  
 }
