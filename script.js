@@ -26,5 +26,4 @@ document.querySelectorAll('.carousel').forEach(carousel => {
     index = (index + 1) % slides.length;
     update();
   }, 4000);
-  */
 });
